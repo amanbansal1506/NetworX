@@ -1,0 +1,32 @@
+{
+  "name": "networx",
+  "version": "1.7.7",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.5",
+    "@mui/joy": "^5.0.0-beta.52",
+    "@mui/material": "^7.3.5",
+    "dayjs": "^1.11.19",
+    "hls.js": "^1.6.15",
+    "lucide-react": "^0.552.0",
+    "next": "^16.0.10",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "baseline-browser-mapping": "^2.9.19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "tailwindcss": "^4"
+  }
+}
